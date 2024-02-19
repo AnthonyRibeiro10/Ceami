@@ -1,0 +1,110 @@
+/* Estilo para o container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+}
+
+/* Estilo para o título */
+h1 {
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+    font-size: 36px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra do texto */
+    background-color: #007bff; /* Cor de fundo */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+/* Estilo para o filtro */
+.filtro {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para as etiquetas dos filtros */
+.filtro label {
+    margin-right: 10px;
+}
+
+/* Estilo para os select dos filtros */
+.filtro select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para o botão de busca */
+.filtro button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.filtro button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para a tabela de louvores */
+.tabela-louvores {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0px;
+}
+
+.tabela-louvores th,
+.tabela-louvores td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 20%; /* Largura fixa para todas as colunas */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+.tabela-louvores th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.tabela-louvores tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabela-louvores tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilo para o parágrafo da palavra-chave */
+.container p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Estilo para o texto da palavra-chave */
+.keyword {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Estilo para o botão da palavra-chave */
+.keyword-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.keyword-button:hover {
+    background-color: #0056b3;
+}
